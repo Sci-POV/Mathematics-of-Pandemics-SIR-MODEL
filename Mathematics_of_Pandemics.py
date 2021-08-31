@@ -36,8 +36,7 @@ data0 = [S0,I0,R0]
 
 #Time Interval
 day= 100
-step = 1
-t = np.linspace(0,day,day*step)
+t = np.linspace(0,day,day)
 
 
 
