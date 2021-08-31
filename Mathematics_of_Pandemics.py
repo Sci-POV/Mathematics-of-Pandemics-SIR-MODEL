@@ -11,6 +11,8 @@ from scipy.integrate import odeint
 from scipy.integrate import solve_ivp
 from scipy.signal import find_peaks
 
+
+#Differential Equations
 def Virus_Transmission(t,data):
     S = data[0]
     I = data[1]
